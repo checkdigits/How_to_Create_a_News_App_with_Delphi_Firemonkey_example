@@ -214,7 +214,7 @@ end;
 function TScreenOrientationMonitor.GetScreenOrientation: TScreenOrientation;
 begin
   Result := TScreenOrientation.Portrait;
-  TMessageManager.DefaultManager.SubscribeToMessage(TOrientationChangedMessage, DoOrientationChanged);
+//  TMessageManager.DefaultManager.SubscribeToMessage(TOrientationChangedMessage, DoOrientationChanged);
   var screenService: IFMXScreenService;
   if TPlatformServices.Current.SupportsPlatformService(IFMXScreenService, screenService) then
     Result := screenService.GetScreenOrientation;

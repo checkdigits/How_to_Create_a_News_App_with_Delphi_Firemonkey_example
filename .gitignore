@@ -1,0 +1,8 @@
+
+__recovery/__recovery.ini
+__recovery/View.Home.DataRect.fmx
+__recovery/View.Home.DataRect.pas
+__recovery/View.Home.fmx
+__recovery/View.Home.pas
+*.dcu
+Win32/Debug/NewsAppWithDelphiFMX.exe
